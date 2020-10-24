@@ -23,3 +23,13 @@ body {
 .contact-title h2 {
     font-size: 16px;
 }
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+}
