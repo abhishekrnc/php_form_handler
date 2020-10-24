@@ -14,3 +14,12 @@ body {
     text-transform: uppercase;
     transition: all 4s ease-in-out;
 }
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
