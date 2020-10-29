@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Contact form using Php</title>
+    <title>Contact us form using Php</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">   <!-- Connecting css file with html -->
 </head>
 
 <body>
@@ -16,16 +16,16 @@
     </div>
 
     <div class="contact-form">
-        <form id="contact=form" method="post" action="contact-form-handler.php">
+        <form id="contact=form" method="post" action="contact-form-handler.php">  <!-- Connecting the php file with html -->
             <!--The action things used here has been used to connect the php file with the index page-->
-            <input name="name" type="text" class="form-control" placeholder="Your Full Name" required>
+            <input name="name" type="text" class="form-control" placeholder="Please enter your Full Name" required>
             <br>
-            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+            <input name="email" type="email" class="form-control" placeholder="Please enter your Email" required>
             <br>
             <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
             <br>
 
-            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            <input type="submit" class="form-control submit" value="SEND THIS MESSAGE">
 
         </form>
     </div>
